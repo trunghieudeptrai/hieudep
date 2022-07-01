@@ -1,0 +1,101 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-repeat: no-repeat
+}
+@font-face{
+	src: url("../fonts/LEMONMILK-Light.otf");
+	font-family: a
+}
+@font-face{
+	src: url("../fonts/Fraktion Sans Light.ttf");
+	font-family: b
+}
+ul{
+	text-decoration: none;
+	list-style: none
+}
+a{
+	text-decoration: none;
+	color: none
+}
+.container{
+	width: 1500px;
+	margin: 0 auto;
+}
+.container-lg{
+	width: 1800px;
+	margin: 0 auto
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.row>[class*="col-"]{
+	padding: 12px
+}
+.justify-between{
+	justify-content: space-between
+}
+.justify-around{
+	justify-content: space-around
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-end{
+	justify-content: flex-end
+}
+.justify-st{
+	justify-content: flex-start
+}
+.align-center{
+	align-items: center
+}
+.align-end{
+	align-items: flex-end
+}
+.alignself-center{
+	align-self: center
+}
+.alignself-end{
+	align-self: end
+}
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%
+}
+.col-7{
+	width: 58.33%
+}
+.col-8{
+	width: 66.66%
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.33%
+}
+.col-11{
+	width: 91.66%
+}
+.col-12{
+	width: 100%
+}
